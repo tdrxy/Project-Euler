@@ -10,7 +10,7 @@
 --find numbers x +y+z =1000
 
 
--- SLOW BF
+-- SLOW BF -- 1 min
 
 numbers :: Int
 numbers = [x*y*z | x <- [1..1000], y <- (list2 x), z <- (list2 x), triplet x y z]
